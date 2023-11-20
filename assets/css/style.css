@@ -74,15 +74,15 @@ a {
 
 .header .nav__link {
   color: #2f3a3b;
+  transition: color 0.4s;
 }
 
 .header .nav__link.active {
-  color: #2f3a3b;
-  text-shadow: 1px 0 0 currentColor;
+  color: #1ebfc1;
 }
 
 .header .nav__link:hover {
-  color: #2f3a3b;
+  color: #1ebfc1;
 }
 
 .header .actions {
@@ -92,6 +92,11 @@ a {
 .actions .btn__sign-in {
   color: #494949;
   margin-right: 24px;
+  transition: color 0.4s;
+}
+
+.btn__sign-in:hover {
+  color: #1ebfc1;
 }
 
 .actions .btn__sign-up {
@@ -101,6 +106,12 @@ a {
   font-weight: 600;
   border-radius: 6px;
   border: 1px solid #1ebfc1;
+  transition: background 0.4s, color 0.4s;
+}
+
+.btn__sign-up:hover {
+  background: #1ebfc1;
+  color: #fff;
 }
 
 /* ================== HERO ================== */
